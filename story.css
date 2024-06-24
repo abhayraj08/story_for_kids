@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(image/yellow_background.png);
+    background-color: #c6d260;
+}
+
+.top-image {
+    text-align: center;
+    margin-top: 20px;
+    height: 188px;
+}
+
+.top-image img {
+    height: 188px;
+    width: 1128px;
+}
+
+.story {
+    border: solid 9px white;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px;
+    background-color: rgba(255, 255, 255, 0.04);
+
+    margin: 0px 171px 0px 171px;
+    padding: 0 25px 0 25px;
+    font-size: 25px;
+}
+
+h1,
+h3 {
+    font-family: script mt;
+    margin-bottom: 7px;
+}
+
+.home {
+    display: flex;
+    margin: 18px 0 40px 15px;
+}
+
+.home div {
+    margin-right: 40px;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgba(92, 15, 15, 0.938);
+}
+
+.home div:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*  
+    1. Fairy_icon 
+    2. indian_folk
+*/
+
+.big_box {
+    display: flex;
+}
+
+.box {
+    margin-bottom: 20px;
+    border: solid 6px white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: groove;
+    transition: 1s;
+}
+
+.box:hover {
+    background-color: rgba(208, 208, 63, 0.922);
+    border-color: gold;
+}
+
+.pink {
+    font-size: 32px;
+    font-family: 'Chewy', cursive;
+    background-color: #BB4D80;
+    color: white;
+
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.fairy {
+    border: solid 10px white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    border-style: none;
+    background-image: url(image/fairy-tale-cartoon.jpeg);
+    width: 500%;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.welcome {
+    padding: 10px 10px 20px 10px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+h2 {
+    color: #004534;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+}
